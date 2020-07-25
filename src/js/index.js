@@ -7,9 +7,9 @@ import '../scss/main.scss';
 /* place your code below */
 
 
-const textarea = document.querySelector('.textarea-js');
-const load = document.querySelector('.load-js');
-const save = document.querySelector('.save-js');
+const textarea = document.querySelector('.textarea--js');
+const load = document.querySelector('.load--js');
+const save = document.querySelector('.save--js');
 
 save.addEventListener('click', (e) => {
     e.preventDefault();
